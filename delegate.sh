@@ -1,15 +1,15 @@
-echo -e "Your Public Key:\n"
+echo -e "Your Public Key: "
 read V_DELEGATOR
 
-echo -e "\nValidator Address: (Example: 011c7c2614ad7c7e9a25feafc549dbecf7b52c4a6221dcb37857e8f8b5e4d27794)\n"
+echo -e "\nExample: 011c7c2614ad7c7e9a25feafc549dbecf7b52c4a6221dcb37857e8f8b5e4d27794 \n Validator Address: "
 read V_VALIDATOR
 
-echo -e "\nAmount of CSPR:\n"
+echo -e "Amount of CSPR: "
 read V_AMOUNT
 
 echo -e "\nYour Public Key: $V_DELEGATOR"
-echo -e "\nValidator Address: $V_VALIDATOR"
-echo -e "\nAmount of CSPR: $V_AMOUNT"
+echo -e "Validator Address: $V_VALIDATOR"
+echo -e "Amount of CSPR: $V_AMOUNT"
 
 echo -e "\nAll the info above is correct [YES/NO]:\n"
 read V_IS_CONFIRMED
