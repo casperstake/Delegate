@@ -20,6 +20,12 @@ you will see. Please enter the code below just below this line.
 
 ```
 staking ALL=(ALL:ALL) ALL
+
+CTRL + O
+
+ENTER
+
+CTRL + X
 ```
 
 Let's continue:
